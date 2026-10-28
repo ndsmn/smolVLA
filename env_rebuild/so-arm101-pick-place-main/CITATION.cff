@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+type: software
+message: "If you use this world, please cite it as below."
+title: "so-arm101-pick-place: a MuJoCo reconstruction of the GPU-DAD SO-101 pick-cube scene"
+authors:
+  - family-names: Rasheed
+    given-names: Armaan
+    affiliation: Rovo Labs
+  - family-names: Gallimore
+    given-names: Kilas
+    affiliation: Rovo Labs
+  - family-names: Johnson
+    given-names: Evonne
+    affiliation: Rovo Labs
+  - family-names: Subbiah
+    given-names: Vishal
+    affiliation: Rovo Labs
+version: 1.0.0
+date-released: 2026-08-21
+license: Apache-2.0
+repository-code: "https://github.com/Rovo-Labs/so-arm101-pick-place"
+abstract: >-
+  A frozen, standalone MuJoCo scene reconstructing the environment in
+  gpudad/so101_pick_cube. Ships three scenes, each colour-matched to that
+  dataset's front, overhead and wrist camera.
+keywords:
+  - robotics
+  - mujoco
+  - sim-to-real
+  - so-101
+  - manipulation

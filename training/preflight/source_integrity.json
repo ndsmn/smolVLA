@@ -1,0 +1,55 @@
+{
+  "source": "cached Hugging Face tree manifest",
+  "revision": "0168e7bfb4d6c97dc1bfa085fa2fc1b78834993f",
+  "files": [
+    {
+      "path": "data/chunk-000/file-000.parquet",
+      "bytes": 144474235,
+      "size_matches_manifest": true,
+      "sha256": "ab716c885bfac4dd60b1ad3cd07b6ea21650be76bb1d2d1a30e03982a664205b",
+      "expected_sha256": "ab716c885bfac4dd60b1ad3cd07b6ea21650be76bb1d2d1a30e03982a664205b",
+      "hash_matches_manifest": true
+    },
+    {
+      "path": "meta/episodes/chunk-000/file-000.parquet",
+      "bytes": 715036,
+      "size_matches_manifest": true,
+      "sha256": "4245fca8d4296ce3058ebf2f71bdb234c1614c0a0266a6056bc370635993fe73",
+      "expected_sha256": "4245fca8d4296ce3058ebf2f71bdb234c1614c0a0266a6056bc370635993fe73",
+      "hash_matches_manifest": true
+    },
+    {
+      "path": "meta/tasks.parquet",
+      "bytes": 2365,
+      "size_matches_manifest": true,
+      "sha256": "57b1932da14ec457a7778d49f87f46b3800b7af7f62b9f2878f1f36eca8d6ae2",
+      "expected_sha256": "57b1932da14ec457a7778d49f87f46b3800b7af7f62b9f2878f1f36eca8d6ae2",
+      "hash_matches_manifest": true
+    },
+    {
+      "path": "videos/observation.images.front/chunk-000/file-000.mp4",
+      "bytes": 1717662832,
+      "size_matches_manifest": true,
+      "sha256": "290ec7d772f7b168b5c09b7eab0c33488c0e675abb50b1c8c7522ddfc29f1b21",
+      "expected_sha256": "290ec7d772f7b168b5c09b7eab0c33488c0e675abb50b1c8c7522ddfc29f1b21",
+      "hash_matches_manifest": true
+    },
+    {
+      "path": "videos/observation.images.overhead/chunk-000/file-000.mp4",
+      "bytes": 1172051323,
+      "size_matches_manifest": true,
+      "sha256": "b9e1c5ed298fa0f362d4563342894119fd36b3cbcd7f2af67a608fbae04d6e16",
+      "expected_sha256": "b9e1c5ed298fa0f362d4563342894119fd36b3cbcd7f2af67a608fbae04d6e16",
+      "hash_matches_manifest": true
+    },
+    {
+      "path": "videos/observation.images.wrist/chunk-000/file-000.mp4",
+      "bytes": 4729960302,
+      "size_matches_manifest": true,
+      "sha256": "53fb8b2090c634e7743dd1eccd00115b6c7121afedc413eed73c50e25ed07c0c",
+      "expected_sha256": "53fb8b2090c634e7743dd1eccd00115b6c7121afedc413eed73c50e25ed07c0c",
+      "hash_matches_manifest": true
+    }
+  ],
+  "all_match": true
+}

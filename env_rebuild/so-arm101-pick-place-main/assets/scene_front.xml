@@ -1,0 +1,61 @@
+<!-- scene_front.xml: colour-matched to GPU-DAD's FRONT camera.
+     Fidelity: MAE 10.58 against the real footage.
+     The floor is raised 55mm and widened to 6km to frame that one view. Correct head-on, wrong from anywhere else.
+     Needs (all alongside this file in assets/): so101_new_calib.xml, the 13 STL meshes, floor_checker_front.png -->
+<mujoco model="gpudad_pickcube">
+  <compiler angle="radian" meshdir="."/>
+  <option timestep="0.002" gravity="0 0 -9.81" cone="elliptic" noslip_iterations="3"/>
+  <include file="so101_new_calib.xml"/>
+  <statistic center="0.0958 0.0 0.0003" extent="0.6327"/>
+
+  <visual>
+    <headlight diffuse="0.3571 0.3571 0.3571" ambient="0.3799 0.4499 0.5144" specular="0 0 0"/>
+    <map haze="0.0" znear="0.030820" zfar="4000.0"/>
+    <global azimuth="160" elevation="-20" offwidth="512" offheight="512"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.30 0.43 0.58" rgb2="0.08 0.12 0.18" width="512" height="512"/>
+    <texture type="2d" name="checker" file="floor_checker_front.png"/>
+    
+    <material name="checker" texture="checker" texuniform="true" texrepeat="6.2910 6.2910" rgba="0.8817 0.8182 0.7772 1" reflectance="0.0" specular="0" shininess="0"/>
+    <material name="table" rgba="0.9019 0.7058 0.5356 1" reflectance="0.0" specular="0" shininess="0"/>
+    <material name="cube_mat" rgba="0.7828 0.2139 0.1959 1" specular="0" shininess="0"/>
+    <material name="bin_blue" rgba="0.3602 0.5864 0.7897 1" specular="0" shininess="0"/>
+    <material name="target_green" rgba="0.10 0.72 0.35 1" reflectance="0.0" specular="0" shininess="0"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0.0974 0.0500 8.1000" dir="0 0 -1" directional="false" castshadow="true"
+           diffuse="0.4800 0.4800 0.4800" specular="0 0 0"/>
+    <light pos="0.6086 0.0003 0.1900" dir="-0.9659 0.0000 -0.2588" directional="true" castshadow="true" cutoff="70" exponent="1" diffuse="0.2290 0.2290 0.2290" specular="0 0 0"/>
+    <light pos="0.09737 -0.4000 0.0778" dir="0.0000 0.9816 -0.1908" directional="true" castshadow="true" diffuse="0.2213 0.2213 0.2213" specular="0 0 0"/>
+    <light pos="0.0974 0.0000 0.3000" dir="-0.6040 -0.1623 -0.7803" directional="true" castshadow="false" diffuse="0.0000 0.0000 0.0000" specular="0 0 0"/>
+    <geom name="floor" type="box" pos="-0.1272 -0.1590 -0.3010" size="6000 6000 0.05" material="checker"/>
+
+    <geom name="table" type="box" material="table"
+          pos="0.09737 0.00032 -0.0200"
+          size="0.20075 0.20075 0.0200"/>
+
+    <body name="container" mocap="true" pos="0.0976 0.0 0">
+      <geom name="bin_0" type="box" material="bin_blue" pos="0.0000 0.0000 0.0034" size="0.0350 0.0350 0.0016" contype="1" conaffinity="1" condim="4" friction="1 0.05 0.001" density="500"/>
+      <geom name="bin_1" type="box" material="bin_blue" pos="0.0320 0.0000 0.0165" size="0.0030 0.0350 0.0165" contype="1" conaffinity="1" condim="4" friction="1 0.05 0.001" density="500"/>
+      <geom name="bin_2" type="box" material="bin_blue" pos="-0.0320 0.0000 0.0165" size="0.0030 0.0350 0.0165" contype="1" conaffinity="1" condim="4" friction="1 0.05 0.001" density="500"/>
+      <geom name="bin_3" type="box" material="bin_blue" pos="0.0000 0.0320 0.0165" size="0.0350 0.0030 0.0165" contype="1" conaffinity="1" condim="4" friction="1 0.05 0.001" density="500"/>
+      <geom name="bin_4" type="box" material="bin_blue" pos="0.0000 -0.0320 0.0165" size="0.0350 0.0030 0.0165" contype="1" conaffinity="1" condim="4" friction="1 0.05 0.001" density="500"/>
+      <geom name="bin_bead" type="sphere" rgba="1 1 1 1" pos="0.0000 0.0000 0.0184" size="0.0042" contype="0" conaffinity="0" mass="0"/>
+    </body>
+
+    <body name="cube" pos="0.0976 0.0 0.0304">
+      <freejoint/>
+      <geom name="cube" type="box" size="0.02 0.02 0.02" rgba="1.000000 0.188000 0.190200 1.000000"
+            contype="1" conaffinity="1" condim="4" priority="1"
+            density="500" friction="1.2 0.05 0.005"
+            solref="0.004 1" solimp="0.99 0.995 0.0005"/>
+    </body>
+
+    <camera name="overhead_dummy" pos="0 0 1"/>
+    <camera name="front" pos="0.6086 0.0003 0.2455" xyaxes="0.000000 1.000000 -0.000000 -0.333810 0.000000 0.942640" fovy="59.325"/>
+        <camera name="overhead" pos="0.0973 -0.0001 0.7816" xyaxes="0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000" fovy="61.65"/>
+  </worldbody>
+</mujoco>

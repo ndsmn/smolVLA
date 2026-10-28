@@ -1,0 +1,1090 @@
+{
+  "method": "Compare interior frames of episodes with identical state/action trajectories, across the wrist discontinuity. Fixed offset is -301 frames after source episode 2672.",
+  "pairs": 40,
+  "interior_comparisons": 120,
+  "results": [
+    {
+      "source_episode_pair": [
+        7,
+        10000
+      ],
+      "frame_index": 75,
+      "raw_mae": 15.358235359191895,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        7,
+        10000
+      ],
+      "frame_index": 150,
+      "raw_mae": 26.99416160583496,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        7,
+        10000
+      ],
+      "frame_index": 225,
+      "raw_mae": 32.10795211791992,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        64,
+        10057
+      ],
+      "frame_index": 21,
+      "raw_mae": 30.60268211364746,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        64,
+        10057
+      ],
+      "frame_index": 42,
+      "raw_mae": 34.32735061645508,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        64,
+        10057
+      ],
+      "frame_index": 63,
+      "raw_mae": 34.25990676879883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        121,
+        10114
+      ],
+      "frame_index": 20,
+      "raw_mae": 30.275390625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        121,
+        10114
+      ],
+      "frame_index": 40,
+      "raw_mae": 25.48691749572754,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        121,
+        10114
+      ],
+      "frame_index": 60,
+      "raw_mae": 29.6685791015625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        179,
+        10172
+      ],
+      "frame_index": 21,
+      "raw_mae": 52.33475875854492,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        179,
+        10172
+      ],
+      "frame_index": 43,
+      "raw_mae": 50.20668411254883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        179,
+        10172
+      ],
+      "frame_index": 65,
+      "raw_mae": 46.83123779296875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        486,
+        10229
+      ],
+      "frame_index": 27,
+      "raw_mae": 28.2562255859375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        486,
+        10229
+      ],
+      "frame_index": 54,
+      "raw_mae": 47.57875442504883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        486,
+        10229
+      ],
+      "frame_index": 81,
+      "raw_mae": 24.2066650390625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        544,
+        10287
+      ],
+      "frame_index": 28,
+      "raw_mae": 47.86439895629883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        544,
+        10287
+      ],
+      "frame_index": 56,
+      "raw_mae": 44.15745162963867,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        544,
+        10287
+      ],
+      "frame_index": 84,
+      "raw_mae": 39.983642578125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        601,
+        10344
+      ],
+      "frame_index": 16,
+      "raw_mae": 27.50004005432129,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        601,
+        10344
+      ],
+      "frame_index": 32,
+      "raw_mae": 28.52530860900879,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        601,
+        10344
+      ],
+      "frame_index": 48,
+      "raw_mae": 49.87681198120117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        659,
+        10402
+      ],
+      "frame_index": 14,
+      "raw_mae": 28.27298927307129,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        659,
+        10402
+      ],
+      "frame_index": 28,
+      "raw_mae": 64.81121826171875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        659,
+        10402
+      ],
+      "frame_index": 42,
+      "raw_mae": 42.11936569213867,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        716,
+        10459
+      ],
+      "frame_index": 26,
+      "raw_mae": 17.93221092224121,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        716,
+        10459
+      ],
+      "frame_index": 52,
+      "raw_mae": 18.34963035583496,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        716,
+        10459
+      ],
+      "frame_index": 78,
+      "raw_mae": 23.81778907775879,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        774,
+        10517
+      ],
+      "frame_index": 22,
+      "raw_mae": 58.5791015625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        774,
+        10517
+      ],
+      "frame_index": 45,
+      "raw_mae": 14.962748527526855,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        774,
+        10517
+      ],
+      "frame_index": 68,
+      "raw_mae": 27.277099609375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        831,
+        10574
+      ],
+      "frame_index": 75,
+      "raw_mae": 41.80466842651367,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        831,
+        10574
+      ],
+      "frame_index": 150,
+      "raw_mae": 46.67197799682617,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        831,
+        10574
+      ],
+      "frame_index": 225,
+      "raw_mae": 51.60319137573242,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        889,
+        10632
+      ],
+      "frame_index": 23,
+      "raw_mae": 32.87713623046875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        889,
+        10632
+      ],
+      "frame_index": 46,
+      "raw_mae": 36.22831344604492,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        889,
+        10632
+      ],
+      "frame_index": 69,
+      "raw_mae": 30.7174072265625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        946,
+        10689
+      ],
+      "frame_index": 17,
+      "raw_mae": 32.30942916870117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        946,
+        10689
+      ],
+      "frame_index": 35,
+      "raw_mae": 33.138427734375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        946,
+        10689
+      ],
+      "frame_index": 52,
+      "raw_mae": 31.744873046875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1004,
+        10747
+      ],
+      "frame_index": 22,
+      "raw_mae": 43.81718063354492,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1004,
+        10747
+      ],
+      "frame_index": 45,
+      "raw_mae": 42.71543502807617,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1004,
+        10747
+      ],
+      "frame_index": 67,
+      "raw_mae": 45.34234619140625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1061,
+        10804
+      ],
+      "frame_index": 43,
+      "raw_mae": 48.17594528198242,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1061,
+        10804
+      ],
+      "frame_index": 87,
+      "raw_mae": 41.51993942260742,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1061,
+        10804
+      ],
+      "frame_index": 131,
+      "raw_mae": 44.44014358520508,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1119,
+        10862
+      ],
+      "frame_index": 17,
+      "raw_mae": 44.73638916015625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1119,
+        10862
+      ],
+      "frame_index": 34,
+      "raw_mae": 53.54896926879883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1119,
+        10862
+      ],
+      "frame_index": 51,
+      "raw_mae": 59.89835739135742,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1176,
+        10919
+      ],
+      "frame_index": 17,
+      "raw_mae": 32.38960647583008,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1176,
+        10919
+      ],
+      "frame_index": 34,
+      "raw_mae": 51.42327880859375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1176,
+        10919
+      ],
+      "frame_index": 51,
+      "raw_mae": 36.292724609375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1234,
+        10977
+      ],
+      "frame_index": 75,
+      "raw_mae": 27.7103271484375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1234,
+        10977
+      ],
+      "frame_index": 150,
+      "raw_mae": 61.60945510864258,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1234,
+        10977
+      ],
+      "frame_index": 225,
+      "raw_mae": 61.1014404296875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1291,
+        2791
+      ],
+      "frame_index": 75,
+      "raw_mae": 54.2484130859375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1291,
+        2791
+      ],
+      "frame_index": 150,
+      "raw_mae": 42.06361770629883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1291,
+        2791
+      ],
+      "frame_index": 225,
+      "raw_mae": 49.16218948364258,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1349,
+        2849
+      ],
+      "frame_index": 20,
+      "raw_mae": 58.170654296875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1349,
+        2849
+      ],
+      "frame_index": 41,
+      "raw_mae": 54.79071044921875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1349,
+        2849
+      ],
+      "frame_index": 61,
+      "raw_mae": 58.80230712890625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1406,
+        2906
+      ],
+      "frame_index": 16,
+      "raw_mae": 37.06168746948242,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1406,
+        2906
+      ],
+      "frame_index": 33,
+      "raw_mae": 36.94427490234375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1406,
+        2906
+      ],
+      "frame_index": 50,
+      "raw_mae": 33.5765380859375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1464,
+        2714
+      ],
+      "frame_index": 26,
+      "raw_mae": 40.07560348510742,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1464,
+        2714
+      ],
+      "frame_index": 52,
+      "raw_mae": 45.1002197265625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1464,
+        2714
+      ],
+      "frame_index": 78,
+      "raw_mae": 42.39192581176758,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1521,
+        3021
+      ],
+      "frame_index": 22,
+      "raw_mae": 45.164306640625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1521,
+        3021
+      ],
+      "frame_index": 44,
+      "raw_mae": 38.53310012817383,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1521,
+        3021
+      ],
+      "frame_index": 66,
+      "raw_mae": 39.917236328125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1579,
+        3079
+      ],
+      "frame_index": 75,
+      "raw_mae": 21.89434814453125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1579,
+        3079
+      ],
+      "frame_index": 150,
+      "raw_mae": 33.6959228515625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1579,
+        3079
+      ],
+      "frame_index": 225,
+      "raw_mae": 40.6143798828125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1636,
+        3136
+      ],
+      "frame_index": 21,
+      "raw_mae": 45.53240966796875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1636,
+        3136
+      ],
+      "frame_index": 42,
+      "raw_mae": 29.0008544921875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1636,
+        3136
+      ],
+      "frame_index": 63,
+      "raw_mae": 34.04121780395508,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1694,
+        3194
+      ],
+      "frame_index": 42,
+      "raw_mae": 35.63753128051758,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1694,
+        3194
+      ],
+      "frame_index": 85,
+      "raw_mae": 29.37026023864746,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1694,
+        3194
+      ],
+      "frame_index": 127,
+      "raw_mae": 27.1827392578125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1751,
+        3251
+      ],
+      "frame_index": 17,
+      "raw_mae": 23.6197509765625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1751,
+        3251
+      ],
+      "frame_index": 34,
+      "raw_mae": 21.97554588317871,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1751,
+        3251
+      ],
+      "frame_index": 51,
+      "raw_mae": 33.94942092895508,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1809,
+        3309
+      ],
+      "frame_index": 15,
+      "raw_mae": 64.06209564208984,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1809,
+        3309
+      ],
+      "frame_index": 30,
+      "raw_mae": 57.70375442504883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1809,
+        3309
+      ],
+      "frame_index": 45,
+      "raw_mae": 60.97639846801758,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1866,
+        3366
+      ],
+      "frame_index": 16,
+      "raw_mae": 62.99595260620117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1866,
+        3366
+      ],
+      "frame_index": 33,
+      "raw_mae": 62.07356643676758,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1866,
+        3366
+      ],
+      "frame_index": 49,
+      "raw_mae": 61.19535446166992,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1924,
+        3424
+      ],
+      "frame_index": 75,
+      "raw_mae": 40.95709228515625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1924,
+        3424
+      ],
+      "frame_index": 150,
+      "raw_mae": 47.95458984375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1924,
+        3424
+      ],
+      "frame_index": 225,
+      "raw_mae": 44.11606979370117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1981,
+        3481
+      ],
+      "frame_index": 21,
+      "raw_mae": 32.15217971801758,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1981,
+        3481
+      ],
+      "frame_index": 43,
+      "raw_mae": 36.69358444213867,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        1981,
+        3481
+      ],
+      "frame_index": 65,
+      "raw_mae": 34.1947021484375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2039,
+        3539
+      ],
+      "frame_index": 18,
+      "raw_mae": 50.16748046875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2039,
+        3539
+      ],
+      "frame_index": 37,
+      "raw_mae": 50.11635208129883,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2039,
+        3539
+      ],
+      "frame_index": 55,
+      "raw_mae": 49.40254592895508,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2096,
+        3596
+      ],
+      "frame_index": 18,
+      "raw_mae": 21.03273582458496,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2096,
+        3596
+      ],
+      "frame_index": 36,
+      "raw_mae": 19.93963623046875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2096,
+        3596
+      ],
+      "frame_index": 54,
+      "raw_mae": 28.66680908203125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2154,
+        3654
+      ],
+      "frame_index": 23,
+      "raw_mae": 25.55442237854004,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2154,
+        3654
+      ],
+      "frame_index": 47,
+      "raw_mae": 21.68597412109375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2154,
+        3654
+      ],
+      "frame_index": 70,
+      "raw_mae": 44.589111328125,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2211,
+        3711
+      ],
+      "frame_index": 19,
+      "raw_mae": 32.67041015625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2211,
+        3711
+      ],
+      "frame_index": 38,
+      "raw_mae": 41.38924026489258,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2211,
+        3711
+      ],
+      "frame_index": 57,
+      "raw_mae": 33.09684371948242,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2269,
+        3769
+      ],
+      "frame_index": 17,
+      "raw_mae": 39.89103317260742,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2269,
+        3769
+      ],
+      "frame_index": 34,
+      "raw_mae": 43.82511520385742,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2269,
+        3769
+      ],
+      "frame_index": 51,
+      "raw_mae": 47.97300338745117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2326,
+        3826
+      ],
+      "frame_index": 36,
+      "raw_mae": 28.82847023010254,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2326,
+        3826
+      ],
+      "frame_index": 72,
+      "raw_mae": 44.2572021484375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2326,
+        3826
+      ],
+      "frame_index": 108,
+      "raw_mae": 37.88804244995117,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2384,
+        3884
+      ],
+      "frame_index": 28,
+      "raw_mae": 38.58111572265625,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2384,
+        3884
+      ],
+      "frame_index": 56,
+      "raw_mae": 45.34226608276367,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2384,
+        3884
+      ],
+      "frame_index": 84,
+      "raw_mae": 52.39744186401367,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2441,
+        3941
+      ],
+      "frame_index": 25,
+      "raw_mae": 13.230082511901855,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2441,
+        3941
+      ],
+      "frame_index": 51,
+      "raw_mae": 22.39202880859375,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2441,
+        3941
+      ],
+      "frame_index": 77,
+      "raw_mae": 44.82606887817383,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2499,
+        3999
+      ],
+      "frame_index": 22,
+      "raw_mae": 34.49920654296875,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2499,
+        3999
+      ],
+      "frame_index": 44,
+      "raw_mae": 38.73640823364258,
+      "corrected_mae": 0.0
+    },
+    {
+      "source_episode_pair": [
+        2499,
+        3999
+      ],
+      "frame_index": 66,
+      "raw_mae": 27.95790672302246,
+      "corrected_mae": 0.02764892578125
+    }
+  ],
+  "raw_median_pixel_mae": 39.313720703125,
+  "corrected_max_pixel_mae": 0.02764892578125,
+  "corrected_median_pixel_mae": 0.0
+}

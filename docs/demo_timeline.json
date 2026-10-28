@@ -1,0 +1,49 @@
+{
+  "duration_s": 60.766666666666666,
+  "fps": 30,
+  "audio": "None; captions carry the explanation",
+  "sections": [
+    {
+      "section": "Overview",
+      "start_s": 0,
+      "duration_s": 5.0
+    },
+    {
+      "section": "Full successful rollout",
+      "start_s": 5.0,
+      "duration_s": 4.3
+    },
+    {
+      "section": "Matched illustrative pair",
+      "start_s": 9.3,
+      "duration_s": 10.233333333333333
+    },
+    {
+      "section": "Failed placement",
+      "start_s": 19.53333333333333,
+      "duration_s": 10.233333333333333
+    },
+    {
+      "section": "Paired results",
+      "start_s": 29.766666666666666,
+      "duration_s": 9.0
+    },
+    {
+      "section": "Archived offline evaluation",
+      "start_s": 38.766666666666666,
+      "duration_s": 8.0
+    },
+    {
+      "section": "System and findings",
+      "start_s": 46.766666666666666,
+      "duration_s": 8.0
+    },
+    {
+      "section": "Evidence and credits",
+      "start_s": 54.766666666666666,
+      "duration_s": 6.0
+    }
+  ],
+  "evidence_method": "Rerender actual saved qpos in the recorded scene/material configuration; no new policy inference or simulated dynamics",
+  "limits": "Selected illustrative clips; all 50 outcomes/profile retained; no physical-robot validation or real-time hardware claim"
+}

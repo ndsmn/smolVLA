@@ -1,0 +1,55 @@
+{
+  "policy_evaluation_performed": false,
+  "scene_fidelity": "uncalibrated reconstruction",
+  "checks": {
+    "gymnasium_api": "pass",
+    "seeded_reset": "pass",
+    "five_idle_physics_trials": [
+      {
+        "seed": 0,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 1,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 2,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 3,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 4,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      }
+    ],
+    "success_predicate_injected_fixtures": "pass (not policy episodes)",
+    "three_camera_render_and_observation_schema": "pass"
+  },
+  "recorded_action_replay": {
+    "episode": 0,
+    "joint_mae_radians_in_dataset_order": [
+      0.027635551030212202,
+      0.06644378427140123,
+      0.04763869205742095,
+      0.04022058681168815,
+      0.02409429216787746,
+      0.0010627996502208792
+    ],
+    "note": "Diagnostic only; cube pose is an assumption and controller parameters were not fitted. This is not a success-rate evaluation."
+  },
+  "mujoco_version": "3.9.0"
+}

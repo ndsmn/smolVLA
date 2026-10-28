@@ -1,0 +1,1747 @@
+{
+  "selection": "Highest mean source episode 1 red-cube silhouette IoU, with gripper MAE as tie-break; no policy results used",
+  "selected": {
+    "parameters": {
+      "name": "grip2_bin0.2_spin0.05",
+      "cube_sliding": 2.0,
+      "cube_torsional": 0.05,
+      "bin_sliding": 0.2,
+      "bin_torsional": 0.05
+    },
+    "calibration": {
+      "source_episode": 1,
+      "mean_red_iou": 0.5752578675912847,
+      "arm_mae_rad": 0.00928817525790258,
+      "gripper_mae_rad": 0.008548664858775005,
+      "strict_placement_v2": true,
+      "lifted": true,
+      "comparisons": [
+        {
+          "frame": 30,
+          "camera": "front",
+          "source_red_pixels": 398,
+          "used_in_objective": true,
+          "red_iou": 0.6767895878524945
+        },
+        {
+          "frame": 30,
+          "camera": "wrist",
+          "source_red_pixels": 6015,
+          "used_in_objective": true,
+          "red_iou": 0.8101145038167938
+        },
+        {
+          "frame": 30,
+          "camera": "overhead",
+          "source_red_pixels": 52,
+          "used_in_objective": true,
+          "red_iou": 0.2903225806451613
+        },
+        {
+          "frame": 40,
+          "camera": "front",
+          "source_red_pixels": 306,
+          "used_in_objective": true,
+          "red_iou": 0.3524416135881104
+        },
+        {
+          "frame": 40,
+          "camera": "wrist",
+          "source_red_pixels": 7666,
+          "used_in_objective": true,
+          "red_iou": 0.6818418992955909
+        },
+        {
+          "frame": 40,
+          "camera": "overhead",
+          "source_red_pixels": 18,
+          "used_in_objective": true,
+          "red_iou": 0.0196078431372549
+        },
+        {
+          "frame": 50,
+          "camera": "front",
+          "source_red_pixels": 341,
+          "used_in_objective": true,
+          "red_iou": 0.6275
+        },
+        {
+          "frame": 50,
+          "camera": "wrist",
+          "source_red_pixels": 6503,
+          "used_in_objective": true,
+          "red_iou": 0.7796143250688705
+        },
+        {
+          "frame": 50,
+          "camera": "overhead",
+          "source_red_pixels": 34,
+          "used_in_objective": true,
+          "red_iou": 0.19642857142857142
+        },
+        {
+          "frame": 60,
+          "camera": "front",
+          "source_red_pixels": 332,
+          "used_in_objective": true,
+          "red_iou": 0.5799086757990868
+        },
+        {
+          "frame": 60,
+          "camera": "wrist",
+          "source_red_pixels": 6348,
+          "used_in_objective": true,
+          "red_iou": 0.759563681056998
+        },
+        {
+          "frame": 60,
+          "camera": "overhead",
+          "source_red_pixels": 83,
+          "used_in_objective": true,
+          "red_iou": 0.54
+        },
+        {
+          "frame": 70,
+          "camera": "front",
+          "source_red_pixels": 279,
+          "used_in_objective": true,
+          "red_iou": 0.654434250764526
+        },
+        {
+          "frame": 70,
+          "camera": "wrist",
+          "source_red_pixels": 6336,
+          "used_in_objective": true,
+          "red_iou": 0.7814774663156264
+        },
+        {
+          "frame": 70,
+          "camera": "overhead",
+          "source_red_pixels": 28,
+          "used_in_objective": true,
+          "red_iou": 0.48484848484848486
+        },
+        {
+          "frame": 80,
+          "camera": "front",
+          "source_red_pixels": 255,
+          "used_in_objective": true,
+          "red_iou": 0.5700245700245701
+        },
+        {
+          "frame": 80,
+          "camera": "wrist",
+          "source_red_pixels": 1551,
+          "used_in_objective": true,
+          "red_iou": 0.6254370629370629
+        },
+        {
+          "frame": 80,
+          "camera": "overhead",
+          "source_red_pixels": 0,
+          "used_in_objective": false,
+          "red_iou": null
+        },
+        {
+          "frame": 84,
+          "camera": "front",
+          "source_red_pixels": 255,
+          "used_in_objective": true,
+          "red_iou": 0.6832298136645962
+        },
+        {
+          "frame": 84,
+          "camera": "wrist",
+          "source_red_pixels": 1522,
+          "used_in_objective": true,
+          "red_iou": 0.8163145539906104
+        },
+        {
+          "frame": 84,
+          "camera": "overhead",
+          "source_red_pixels": 0,
+          "used_in_objective": false,
+          "red_iou": null
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "parameters": {
+        "name": "upstream",
+        "cube_sliding": 1.2,
+        "cube_torsional": 0.05,
+        "bin_sliding": null,
+        "bin_torsional": null
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.2060721507340746,
+        "arm_mae_rad": 0.011542125526433359,
+        "gripper_mae_rad": 0.12954211983273242,
+        "strict_placement_v2": false,
+        "lifted": false,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.35319148936170214
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6815810070440907
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.5040650406504065
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.4728237487451599
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.10416666666666667
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.002708396027685826
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip_mu2",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": null,
+        "bin_torsional": null
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5206235302030592,
+        "arm_mae_rad": 0.016720685737027906,
+        "gripper_mae_rad": 0.008820377012133687,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.17490494296577946
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.6337122345198923
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.057692307692307696
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5626535626535627
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.5919225915018932
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.7718631178707225
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.784965034965035
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.2_spin0.005",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.2,
+        "bin_torsional": 0.005
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5178173517625962,
+        "arm_mae_rad": 0.011407506017777428,
+        "gripper_mae_rad": 0.008558108696297913,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.5575447570332481
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.7695492180312787
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.09722222222222222
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5921052631578947
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.44313355356300144
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5921052631578947
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.4727361246348588
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.2_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.2,
+        "bin_torsional": 0.05
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5752578675912847,
+        "arm_mae_rad": 0.00928817525790258,
+        "gripper_mae_rad": 0.008548664858775005,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.654434250764526
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.7814774663156264
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.48484848484848486
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5700245700245701
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.6254370629370629
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.6832298136645962
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.8163145539906104
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.6_spin0.005",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.6,
+        "bin_torsional": 0.005
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5431615779868251,
+        "arm_mae_rad": 0.010929311859715319,
+        "gripper_mae_rad": 0.008434861155414398,
+        "strict_placement_v2": false,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.6648199445983379
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.764986900909231
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.30434782608695654
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5034168564920274
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.6261319534282018
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.5034168564920274
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.63881636205396
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.6_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.6,
+        "bin_torsional": 0.05
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5416270794823955,
+        "arm_mae_rad": 0.011302348344851472,
+        "gripper_mae_rad": 0.008681021094499277,
+        "strict_placement_v2": false,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.6657381615598886
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.7766269902612459
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.425
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.4442013129102845
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.6083603896103896
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.4442013129102845
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.6126530612244898
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin1.2_spin0.005",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 1.2,
+        "bin_torsional": 0.005
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.4309886935758452,
+        "arm_mae_rad": 0.017721008563511734,
+        "gripper_mae_rad": 0.008749164490993963,
+        "strict_placement_v2": false,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.17490494296577946
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.636295631358468
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.058823529411764705
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.29310344827586204
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.21167315175097276
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.29310344827586204
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.20674774421341702
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin1.2_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 1.2,
+        "bin_torsional": 0.05
+      },
+      "calibration": {
+        "source_episode": 1,
+        "mean_red_iou": 0.5114221024808386,
+        "arm_mae_rad": 0.016791257725714444,
+        "gripper_mae_rad": 0.008739911267659408,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "front",
+            "source_red_pixels": 398,
+            "used_in_objective": true,
+            "red_iou": 0.6767895878524945
+          },
+          {
+            "frame": 30,
+            "camera": "wrist",
+            "source_red_pixels": 6015,
+            "used_in_objective": true,
+            "red_iou": 0.8101145038167938
+          },
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 52,
+            "used_in_objective": true,
+            "red_iou": 0.2903225806451613
+          },
+          {
+            "frame": 40,
+            "camera": "front",
+            "source_red_pixels": 306,
+            "used_in_objective": true,
+            "red_iou": 0.3524416135881104
+          },
+          {
+            "frame": 40,
+            "camera": "wrist",
+            "source_red_pixels": 7666,
+            "used_in_objective": true,
+            "red_iou": 0.6818418992955909
+          },
+          {
+            "frame": 40,
+            "camera": "overhead",
+            "source_red_pixels": 18,
+            "used_in_objective": true,
+            "red_iou": 0.0196078431372549
+          },
+          {
+            "frame": 50,
+            "camera": "front",
+            "source_red_pixels": 341,
+            "used_in_objective": true,
+            "red_iou": 0.6275
+          },
+          {
+            "frame": 50,
+            "camera": "wrist",
+            "source_red_pixels": 6503,
+            "used_in_objective": true,
+            "red_iou": 0.7796143250688705
+          },
+          {
+            "frame": 50,
+            "camera": "overhead",
+            "source_red_pixels": 34,
+            "used_in_objective": true,
+            "red_iou": 0.19642857142857142
+          },
+          {
+            "frame": 60,
+            "camera": "front",
+            "source_red_pixels": 332,
+            "used_in_objective": true,
+            "red_iou": 0.5799086757990868
+          },
+          {
+            "frame": 60,
+            "camera": "wrist",
+            "source_red_pixels": 6348,
+            "used_in_objective": true,
+            "red_iou": 0.759563681056998
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 83,
+            "used_in_objective": true,
+            "red_iou": 0.54
+          },
+          {
+            "frame": 70,
+            "camera": "front",
+            "source_red_pixels": 279,
+            "used_in_objective": true,
+            "red_iou": 0.19540229885057472
+          },
+          {
+            "frame": 70,
+            "camera": "wrist",
+            "source_red_pixels": 6336,
+            "used_in_objective": true,
+            "red_iou": 0.6340514661879114
+          },
+          {
+            "frame": 70,
+            "camera": "overhead",
+            "source_red_pixels": 28,
+            "used_in_objective": true,
+            "red_iou": 0.09615384615384616
+          },
+          {
+            "frame": 80,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.49682875264270615
+          },
+          {
+            "frame": 80,
+            "camera": "wrist",
+            "source_red_pixels": 1551,
+            "used_in_objective": true,
+            "red_iou": 0.6453563714902808
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 84,
+            "camera": "front",
+            "source_red_pixels": 255,
+            "used_in_objective": true,
+            "red_iou": 0.7090301003344481
+          },
+          {
+            "frame": 84,
+            "camera": "wrist",
+            "source_red_pixels": 1522,
+            "used_in_objective": true,
+            "red_iou": 0.6260638297872341
+          },
+          {
+            "frame": 84,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    }
+  ],
+  "validation": [
+    {
+      "parameters": {
+        "name": "upstream",
+        "cube_sliding": 1.2,
+        "cube_torsional": 0.05,
+        "bin_sliding": null,
+        "bin_torsional": null
+      },
+      "result": {
+        "source_episode": 2,
+        "mean_red_iou": 0.0,
+        "arm_mae_rad": 0.0274873606671313,
+        "gripper_mae_rad": 0.011605441929491919,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 15,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 1,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 90,
+            "camera": "overhead",
+            "source_red_pixels": 1,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "upstream",
+        "cube_sliding": 1.2,
+        "cube_torsional": 0.05,
+        "bin_sliding": null,
+        "bin_torsional": null
+      },
+      "result": {
+        "source_episode": 5,
+        "mean_red_iou": 0.13114754098360656,
+        "arm_mae_rad": 0.016312015489074443,
+        "gripper_mae_rad": 0.00927039545109206,
+        "strict_placement_v2": false,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 21,
+            "used_in_objective": true,
+            "red_iou": 0.13114754098360656
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 90,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "upstream",
+        "cube_sliding": 1.2,
+        "cube_torsional": 0.05,
+        "bin_sliding": null,
+        "bin_torsional": null
+      },
+      "result": {
+        "source_episode": 10,
+        "mean_red_iou": 0.28133364517554116,
+        "arm_mae_rad": 0.008076679606225089,
+        "gripper_mae_rad": 0.24566143857301406,
+        "strict_placement_v2": false,
+        "lifted": false,
+        "comparisons": [
+          {
+            "frame": 27,
+            "camera": "overhead",
+            "source_red_pixels": 69,
+            "used_in_objective": true,
+            "red_iou": 0.5841584158415841
+          },
+          {
+            "frame": 54,
+            "camera": "overhead",
+            "source_red_pixels": 67,
+            "used_in_objective": true,
+            "red_iou": 0.25984251968503935
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 51,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.2_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.2,
+        "bin_torsional": 0.05
+      },
+      "result": {
+        "source_episode": 2,
+        "mean_red_iou": 0.0,
+        "arm_mae_rad": 0.0237764277683009,
+        "gripper_mae_rad": 0.011069759105008,
+        "strict_placement_v2": false,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 15,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 1,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 90,
+            "camera": "overhead",
+            "source_red_pixels": 1,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.2_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.2,
+        "bin_torsional": 0.05
+      },
+      "result": {
+        "source_episode": 5,
+        "mean_red_iou": 0.12903225806451613,
+        "arm_mae_rad": 0.011831331240205332,
+        "gripper_mae_rad": 0.01064537561903384,
+        "strict_placement_v2": true,
+        "lifted": true,
+        "comparisons": [
+          {
+            "frame": 30,
+            "camera": "overhead",
+            "source_red_pixels": 21,
+            "used_in_objective": true,
+            "red_iou": 0.12903225806451613
+          },
+          {
+            "frame": 60,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          },
+          {
+            "frame": 90,
+            "camera": "overhead",
+            "source_red_pixels": 0,
+            "used_in_objective": false,
+            "red_iou": null
+          }
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "name": "grip2_bin0.2_spin0.05",
+        "cube_sliding": 2.0,
+        "cube_torsional": 0.05,
+        "bin_sliding": 0.2,
+        "bin_torsional": 0.05
+      },
+      "result": {
+        "source_episode": 10,
+        "mean_red_iou": 0.4425827198104426,
+        "arm_mae_rad": 0.01274974682093308,
+        "gripper_mae_rad": 0.07706407571609057,
+        "strict_placement_v2": false,
+        "lifted": false,
+        "comparisons": [
+          {
+            "frame": 27,
+            "camera": "overhead",
+            "source_red_pixels": 69,
+            "used_in_objective": true,
+            "red_iou": 0.5841584158415841
+          },
+          {
+            "frame": 54,
+            "camera": "overhead",
+            "source_red_pixels": 67,
+            "used_in_objective": true,
+            "red_iou": 0.7435897435897436
+          },
+          {
+            "frame": 80,
+            "camera": "overhead",
+            "source_red_pixels": 51,
+            "used_in_objective": true,
+            "red_iou": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_success_labels_available": false,
+  "geometry_changed": false,
+  "training_performed": false,
+  "success_metric": "v2, 0.1 mm horizontal numerical contact tolerance",
+  "limits": "Limited source episodes; partially occluded masks and fitted reset positions remain uncertain",
+  "source_reset_sha256": "91387279713621e9444e9dd89cb788547bf864dec7b96f4b9f0389ea7f8889a7"
+}

@@ -1,0 +1,16 @@
+{
+  "captured_utc": "2026-10-23T15:28:14.586021+00:00",
+  "python": "<ORIGINAL_TRAINING_PYTHON>",
+  "training_started": false,
+  "torch_version": "2.11.0+cu130",
+  "torch_cuda_version": "13.0",
+  "cuda_available": true,
+  "device_count": 1,
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "NVIDIA RTX 6000 Ada Generation, 580.173.02, 49140 MiB, 46710 MiB, 36 %\n",
+    "stderr": ""
+  },
+  "gpu_name": "NVIDIA RTX 6000 Ada Generation",
+  "cuda_computation_passed": true
+}

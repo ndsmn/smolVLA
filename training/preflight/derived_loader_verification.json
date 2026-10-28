@@ -1,0 +1,107 @@
+{
+  "frames": 1445747,
+  "sampled_frames": 16,
+  "action_chunk_shape": [
+    50,
+    6
+  ],
+  "all_three_cameras_decode": true,
+  "samples": [
+    {
+      "index": 0,
+      "episode": 0,
+      "timestamp": 0.0,
+      "frame_index": 0
+    },
+    {
+      "index": 96383,
+      "episode": 769,
+      "timestamp": 5.800000190734863,
+      "frame_index": 174
+    },
+    {
+      "index": 192766,
+      "episode": 1491,
+      "timestamp": 0.9666666388511658,
+      "frame_index": 29
+    },
+    {
+      "index": 289149,
+      "episode": 2189,
+      "timestamp": 1.9666666984558105,
+      "frame_index": 59
+    },
+    {
+      "index": 385532,
+      "episode": 2944,
+      "timestamp": 2.4666666984558105,
+      "frame_index": 74
+    },
+    {
+      "index": 481915,
+      "episode": 3645,
+      "timestamp": 2.866666555404663,
+      "frame_index": 86
+    },
+    {
+      "index": 578298,
+      "episode": 4394,
+      "timestamp": 1.9333332777023315,
+      "frame_index": 58
+    },
+    {
+      "index": 674681,
+      "episode": 5090,
+      "timestamp": 2.5999999046325684,
+      "frame_index": 78
+    },
+    {
+      "index": 771064,
+      "episode": 5855,
+      "timestamp": 8.300000190734863,
+      "frame_index": 249
+    },
+    {
+      "index": 867447,
+      "episode": 6556,
+      "timestamp": 1.2666666507720947,
+      "frame_index": 38
+    },
+    {
+      "index": 963830,
+      "episode": 7281,
+      "timestamp": 2.433333396911621,
+      "frame_index": 73
+    },
+    {
+      "index": 1060213,
+      "episode": 8006,
+      "timestamp": 1.3666666746139526,
+      "frame_index": 41
+    },
+    {
+      "index": 1156596,
+      "episode": 8735,
+      "timestamp": 8.433333396911621,
+      "frame_index": 253
+    },
+    {
+      "index": 1252979,
+      "episode": 9489,
+      "timestamp": 5.266666889190674,
+      "frame_index": 158
+    },
+    {
+      "index": 1349362,
+      "episode": 10284,
+      "timestamp": 3.8333332538604736,
+      "frame_index": 115
+    },
+    {
+      "index": 1445746,
+      "episode": 10990,
+      "timestamp": 2.866666555404663,
+      "frame_index": 86
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+/home/roboverse/rajat/smolvla/lerobot/.venv-smolvla/lib/python3.12/site-packages/gymnasium/utils/env_checker.py:339: UserWarning: [33mWARN: For Box action spaces, we recommend using a symmetric and normalized space (range=[-1, 1] or [0, 1]). See https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html for more information.[0m
+  logger.warn(
+/home/roboverse/rajat/smolvla/lerobot/.venv-smolvla/lib/python3.12/site-packages/gymnasium/utils/env_checker.py:317: UserWarning: [33mWARN: A Box observation space minimum value is -infinity. This is probably too low.[0m
+  logger.warn(
+/home/roboverse/rajat/smolvla/lerobot/.venv-smolvla/lib/python3.12/site-packages/gymnasium/utils/env_checker.py:321: UserWarning: [33mWARN: A Box observation space maximum value is infinity. This is probably too high.[0m
+  logger.warn(
+{
+  "policy_evaluation_performed": false,
+  "scene_fidelity": "uncalibrated reconstruction",
+  "checks": {
+    "gymnasium_api": "pass",
+    "seeded_reset": "pass",
+    "five_idle_physics_trials": [
+      {
+        "seed": 0,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 1,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 2,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 3,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      },
+      {
+        "seed": 4,
+        "steps": 301,
+        "finite": true,
+        "idle_false_success": false
+      }
+    ],
+    "success_predicate_injected_fixtures": "pass (not policy episodes)",
+    "three_camera_render_and_observation_schema": "pass"
+  },
+  "recorded_action_replay": {
+    "episode": 0,
+    "joint_mae_radians_in_dataset_order": [
+      0.027635551030212202,
+      0.06644378427140123,
+      0.04763869205742095,
+      0.04022058681168815,
+      0.02409429216787746,
+      0.0010627996502208792
+    ],
+    "note": "Diagnostic only; cube pose is an assumption and controller parameters were not fitted. This is not a success-rate evaluation."
+  },
+  "mujoco_version": "3.9.0"
+}

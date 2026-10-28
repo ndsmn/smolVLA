@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+checkpoints/
+results/
+training/derived_dataset/
+training/runs/
+env_rebuild/inputs/smolvlm2_processor/
+env_rebuild/release_audit/paired_material_evaluation*/
+env_rebuild/environment_verification.json
+env_rebuild/policy_*/

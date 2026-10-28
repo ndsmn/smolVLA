@@ -1,0 +1,22 @@
+{
+  "source": "<SOURCE_DATASET>",
+  "derived": "<ORIGINAL_PROJECT_ROOT>/outputs/smolvla_so101_40k/derived_dataset",
+  "excluded_source_episodes": [
+    232,
+    2672
+  ],
+  "excluded_reason": "Camera episode durations do not match state/action data; wrist episode 2672 video is absent.",
+  "dropped_dummy_first_action_records": 10991,
+  "timestamp": "episode-relative frame_index / 30, float32",
+  "wrist_correction": "Subtract 301/30 seconds from video offsets for source episode >2672",
+  "episodes": 10991,
+  "frames": 1445747,
+  "train_episodes": 9911,
+  "validation_episodes": 1080,
+  "train_frames": 1301369,
+  "validation_frames": 144378,
+  "unique_trajectory_groups": 5250,
+  "duplicate_group_overlap": 0,
+  "data_sha256": "57c0bf397174e078a96ae0998d2c486e48f464ac9baf6238c2ec3df702c88e46",
+  "validation_limits": "All source reset starts checked, plus 120 duplicated-trajectory interior frame comparisons. Not every video frame was inspected."
+}

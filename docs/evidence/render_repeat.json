@@ -1,0 +1,68 @@
+[
+  {
+    "offsamples": 4,
+    "comparisons": [
+      {
+        "front": {
+          "different_values": 0,
+          "max_abs_error": 0
+        },
+        "wrist": {
+          "different_values": 41,
+          "max_abs_error": 1
+        },
+        "overhead": {
+          "different_values": 0,
+          "max_abs_error": 0
+        }
+      },
+      {
+        "front": {
+          "different_values": 2,
+          "max_abs_error": 1
+        },
+        "wrist": {
+          "different_values": 41,
+          "max_abs_error": 1
+        },
+        "overhead": {
+          "different_values": 0,
+          "max_abs_error": 0
+        }
+      }
+    ]
+  },
+  {
+    "offsamples": 0,
+    "comparisons": [
+      {
+        "front": {
+          "different_values": 0,
+          "max_abs_error": 0
+        },
+        "wrist": {
+          "different_values": 0,
+          "max_abs_error": 0
+        },
+        "overhead": {
+          "different_values": 0,
+          "max_abs_error": 0
+        }
+      },
+      {
+        "front": {
+          "different_values": 0,
+          "max_abs_error": 0
+        },
+        "wrist": {
+          "different_values": 0,
+          "max_abs_error": 0
+        },
+        "overhead": {
+          "different_values": 0,
+          "max_abs_error": 0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "original_source_sha256": {
+    "rovo_env.py": "ce4a583df0e39bf1d6dc65be23b050954b7f7936f40029a607d544c1dbda6233",
+    "contact_materials.py": "6aba36977680a2340d6aa042022afdf473f994eab83cd30f3e6640d017f81b21",
+    "run_frozen_policy.py": "0d8afd7e935567529841f8c2bd60e7a5805e899552ae5f51b4bff247d800ce6c",
+    "evaluate_material_pair.py": "9cce91d893933222c0db2f7498e31d304c83ae3c565c40f253bd82280418cd54",
+    "audit_placement_tolerance.py": "d77ed3ff052da6c30210b793abf12a41e921ff940e7c5110c18d90fcfdca7de5",
+    "verify_environment.py": "97d0dbffe0e3e286647fc65987a4d70178d857c8be288b414e8c1af6a5e7b5ac",
+    "patch_inference_runtime.py": "b27ff782889064a85f96ba83cf1c46cc7fd4f94210f9f5ce7bc0d983165060f1",
+    "download_runtime_assets.py": "348010fc2cb11c824cd505141af1c5e7fbd24eacccb488d7111d60cb8065c4e3",
+    "requirements-inference.txt": "69e80c1fc38afddd657e85aab3f1bf507151e078a1e98f6f6867b362a63eedba"
+  },
+  "changes": [
+    "Checkpoint and optional torch paths supplied through environment variables",
+    "Public entry point defaults to uniform replica, H25 and 301 steps",
+    "Old controller-calibrated and legacy reconstructed profiles excluded",
+    "Output directory creation refuses overwrite; physics, mappings, observation processing and policy prediction retained",
+    "Refuse checkpoint loading unless model SHA-256 matches the published 40k identity"
+  ]
+}

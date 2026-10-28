@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "profile": "upstream",
+      "deterministic_reset": true,
+      "named_joint_mapping": true,
+      "compiled_pad_collision_bounds": true,
+      "valid_rgb_outputs": true,
+      "camera_states_mirrored": true
+    },
+    {
+      "profile": "source_visual",
+      "deterministic_reset": true,
+      "named_joint_mapping": true,
+      "compiled_pad_collision_bounds": true,
+      "valid_rgb_outputs": true,
+      "camera_states_mirrored": true
+    },
+    {
+      "profile": "uniform_reset_sampler",
+      "100_seeds_within_bounds_and_nonoverlapping": true
+    },
+    {
+      "profile": "placement_metric_regression",
+      "passed": true,
+      "fixtures": [
+        {
+          "wall_overlap_m": 5e-06,
+          "legacy_candidate": false,
+          "v2_candidate": true
+        },
+        {
+          "wall_overlap_m": 0.001,
+          "legacy_candidate": false,
+          "v2_candidate": false
+        }
+      ]
+    },
+    {
+      "profile": "material_only_change",
+      "geometry_mass_and_actuators_unchanged": true
+    }
+  ]
+}

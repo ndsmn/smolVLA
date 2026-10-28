@@ -1,0 +1,52 @@
+Copyright 2026 Rovo Labs
+
+This product includes software and 3D assets developed by the
+so101-nexus-core project (version 0.3.12),
+licensed under the Apache-2.0 License.
+
+UNMODIFIED, redistributed verbatim:
+  assets/*.stl -- all 13 SO-101 meshes, byte-identical to upstream.
+
+MODIFIED by this project:
+  assets/so101_new_calib.xml -- the robot base was shifted to match
+  GPU-DAD's table layout, the wrist camera was re-posed and re-lensed to
+  match GPU-DAD's wrist footage, and meshdir was repointed from "assets"
+  to "." because this file now sits inside assets/ alongside the meshes.
+  Diff against upstream:
+
+  - <body name="base" pos="0 0 0" quat="1 0 0 0" childclass="so101_new_calib">
+  + <body name="base" pos="-0.1024 0.0 0" quat="1 0 0 0" childclass="so101_new_calib">
+  - <camera name="wrist_cam" pos="0 0.04 -0.04" euler="-0.5 0.0 6.28"  fovy="75"/>
+  + <camera name="wrist_cam" pos="1.2e-05 0.039668 -0.010513" quat="0.957439 -0.288637 0.000129 6.7e-05" fovy="91.13"/>
+
+Upstream provenance, as recorded by that project: the robot description was
+generated with onshape-to-robot from an Onshape CAD model, and the STS3215
+motor parameters were adapted from the Open Duck Mini project.
+
+DERIVED FROM, and in one place included:
+  gpudad/so101_pick_cube (https://huggingface.co/datasets/gpudad/so101_pick_cube),
+  by gpudad, licensed under Apache-2.0. Every camera pose,
+  focal length, light and material colour in these scenes was fitted by
+  measuring against frames from that dataset.
+
+  INCLUDED from it, both under that same Apache-2.0 licence:
+
+    1. figures/original_3views.png. This is real imagery FROM that dataset:
+       three frames of episode 188, frame 16, as seen by its front, overhead
+       and wrist cameras, composited side by side. It is reproduced here so a
+       reader can see what the reconstruction is being compared against.
+
+    2. The six numbers in run.py's POSE_ARM constant, which are that dataset's
+       recorded robot state at that same frame, converted to MuJoCo joint
+       angles. They are what makes run.py reproduce
+       figures/reconstruction_3views.png.
+
+  NOT included: no episode files, no trajectories, no actions, and no other
+  recorded data from that dataset. figures/reconstruction_3views.png is OUR
+  render, not their imagery, and POSE_CUBE and POSE_BIN in run.py are this
+  project's own fitted placements for this world.
+
+The MuJoCo scene files (assets/scene_*.xml), run.py (except POSE_ARM, noted
+above), ik_expert.py, example.py, the camera and lighting fits, the floor textures and the documentation
+in this bundle are original work of this project and are released under the
+same Apache-2.0 License.

@@ -1,0 +1,101 @@
+[
+  {
+    "step": 0,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 1.1140646301209927,
+    "normalized_action_mae": 0.6768750536651015,
+    "action_mae_radians": 0.21241582230252154,
+    "action_mse_radians_squared": 0.09120923012771326,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 5000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.14787566824816167,
+    "normalized_action_mae": 0.23707387596238466,
+    "action_mae_radians": 0.0813240692724077,
+    "action_mse_radians_squared": 0.025468647747608073,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 10000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.10818913974799216,
+    "normalized_action_mae": 0.17145091669530704,
+    "action_mae_radians": 0.058235419344939574,
+    "action_mse_radians_squared": 0.016705633189808725,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 15000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.09524055570363998,
+    "normalized_action_mae": 0.15585520563442,
+    "action_mae_radians": 0.05257184189489566,
+    "action_mse_radians_squared": 0.01401920295249588,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 20000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.08768898085691035,
+    "normalized_action_mae": 0.14860691695329808,
+    "action_mae_radians": 0.05079191484907808,
+    "action_mse_radians_squared": 0.01469810212932518,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 25000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.07742568152025342,
+    "normalized_action_mae": 0.14240133665746646,
+    "action_mae_radians": 0.049198381838649226,
+    "action_mse_radians_squared": 0.014683076726626422,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 30000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.08127348707057536,
+    "normalized_action_mae": 0.13406337995819986,
+    "action_mae_radians": 0.04630790691766077,
+    "action_mse_radians_squared": 0.013564730919413188,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 35000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.07768416730687022,
+    "normalized_action_mae": 0.13233844952140977,
+    "action_mae_radians": 0.045570963833479555,
+    "action_mse_radians_squared": 0.012936631080868097,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  },
+  {
+    "step": 40000,
+    "anchors": 128,
+    "distinct_trajectory_groups": 128,
+    "flow_matching_loss": 0.0772500759921968,
+    "normalized_action_mae": 0.1317255841866227,
+    "action_mae_radians": 0.04547758515559093,
+    "action_mse_radians_squared": 0.013031949622173309,
+    "valid_action_elements": 34302,
+    "method": "Fixed held-out anchor per trajectory group, 50-step chunks, padding masked; target normalization from training only."
+  }
+]

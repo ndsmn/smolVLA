@@ -1,0 +1,17 @@
+{
+  "comparison": "Original vs public wrapper with saved actions; no policy inference",
+  "checks": [
+    {
+      "profile": "upstream",
+      "seed": 35003,
+      "actions_compared": 301,
+      "max_qpos_export_difference": 0.0
+    },
+    {
+      "profile": "source_visual",
+      "seed": 35003,
+      "actions_compared": 126,
+      "max_qpos_export_difference": 0.0
+    }
+  ]
+}
